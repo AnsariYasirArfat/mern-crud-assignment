@@ -1,4 +1,4 @@
-const User = require("../models/userModel");
+const User = require("../models/userModel.js");
 
 exports.home = (req, res) => {
   res.send("Hello from Backend");
